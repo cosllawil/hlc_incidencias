@@ -1,0 +1,5 @@
+# Apunta el DocumentRoot a /public si es posible.
+# Si no, redirige a /public
+RewriteEngine On
+RewriteRule ^$ public/ [L]
+RewriteRule (.*) public/$1 [L]

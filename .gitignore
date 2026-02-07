@@ -1,0 +1,19 @@
+# Configuración sensible
+.env
+.env.local
+
+# Logs
+*.log
+
+# Dependencias
+/vendor
+/node_modules
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+
+# Base de datos local
+hlc_incidencias.sql
+*.sql
+*.bak
